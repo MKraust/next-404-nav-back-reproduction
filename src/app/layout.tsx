@@ -14,7 +14,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Link href="/dynamic/foo">Dynamic page</Link>
           </li>
           <li>
-            <Link href="/111">Non-existent page</Link>
+            <Link href="/111">Not found page</Link>
+          </li>
+          <li>
+            <Link href="/dynamic/404">Dynamic not found page</Link>
           </li>
         </ul>
         {children}
